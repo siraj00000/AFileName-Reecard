@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Karla:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700;800&display=swap");
+@layer base {
+  body {
+    @apply dark:bg-[#3C4048] bg-[#fff];
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Karla, ui-sans-serif, system-ui;
+}
